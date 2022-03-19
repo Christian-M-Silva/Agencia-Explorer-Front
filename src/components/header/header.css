@@ -1,0 +1,44 @@
+.menuToggle {
+    display:none;
+}
+.menu-superior{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "logo menu";
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu-superior ul {
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-area: menu;       
+}
+.menu-superior li img{
+    vertical-align: middle;
+}
+.menu-superior li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    line-height: 14px;
+}
+.menu-superior li:hover {
+    background-color:#181c3a;
+}
+.logotipo{
+    grid-area: logo;
+    text-align: left;
+}
+
+.bold{
+    color: black;
+}
